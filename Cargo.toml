@@ -1,0 +1,20 @@
+[package]
+name = "blind_watermark"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+blind_watermark = "0.1.3"
+bitvec = "1.0"
+rand = "0.8"
+eframe = "0.27"
+egui = "0.27"
+egui-chinese-font = "0.1"
+rfd = "0.14"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = 'abort'
+strip = true
