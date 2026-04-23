@@ -724,7 +724,7 @@ dependencies = [
  "eframe",
  "egui",
  "egui-chinese-font",
- "rand 0.8.5",
+ "rand 0.10.1",
  "rfd",
 ]
 
